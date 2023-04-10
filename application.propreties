@@ -1,1 +1,4 @@
-eureka.client.serviceUrl.defaultZone=${EUREKA_SERVER:http://discovery-server:8761/eureka}
+eureka.client.serviceUrl.defaultZone=${EUREKA_SERVER:http://service-registry:8761/}
+server.port=8080
+spring.application.name=Gateway_Service
+
