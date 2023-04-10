@@ -2,8 +2,10 @@ eureka :
   instance:
    client:
     serviceUrl:
-     defaultZone: http://service-registry:8761/
+     defaultZone: http://service-registry
      
 spring:
   application:
     name: Gateway_Service
+server:
+  port: 8761
