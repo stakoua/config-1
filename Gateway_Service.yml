@@ -1,0 +1,9 @@
+eureka :
+  instance:
+   client:
+    serviceUrl:
+     defaultZone: http://service-registry:8761/
+     
+spring:
+  application:
+    name: Gateway_Service
