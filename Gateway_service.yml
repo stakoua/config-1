@@ -1,0 +1,15 @@
+eureka :
+  instance:
+   client:
+    serviceUrl:
+     defaultZone: http://service-registry:8761/
+
+spring:
+  application:
+    name: Gateway_Service
+  security:
+    user:
+      name: insy2s
+      password: insy2s
+server:
+  port: 8080
