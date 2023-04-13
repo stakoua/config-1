@@ -39,4 +39,6 @@ eureka :
   instance:
     client:
       serviceUrl:
-       defaultZone: http://localhost:8761/
+      # defaultZone: http://localhost:8761/
+        defaultZone: http://service-registry:8761/
+
