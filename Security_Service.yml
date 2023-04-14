@@ -13,7 +13,8 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/Users_db
+   # url: jdbc:postgresql://localhost:5432/users_db
+    url: jdbc:postgresql://postgres-security:5432/users_db
     username: postgres
 
     password: insy2s
@@ -22,7 +23,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create # When you launch the application for the first time - switch "none" at "create"
+      ddl-auto: update # When you launch the application for the first time - switch "none" at "create"
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl: false
@@ -39,4 +40,5 @@ eureka :
   instance:
     client:
       serviceUrl:
-       defaultZone: http://localhost:8761/
+       #defaultZone: http://localhost:8761/
+        defaultZone: http://service-registry:8761/
