@@ -4,6 +4,10 @@ eureka :
     serviceUrl:
      defaultZone: http://service-registry:8761
 
+spring:
+  application:
+    name: Gateway_Service
+
 
 server:
   port: 8080
