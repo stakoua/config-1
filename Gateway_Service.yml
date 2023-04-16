@@ -1,12 +1,13 @@
-eureka :
-  client:
-    serviceUrl:
-     defaultZone: http://service-registry:8761
-
 spring:
-  application:
-    name: Gateway_Service
-
+  profiles: docker
+eureka:
+  instance:
+    hostname: configserver
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka/
 
 server:
   port: 8080
