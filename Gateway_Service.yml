@@ -1,6 +1,5 @@
 eureka :
-  instance:
-   client:
+  client:
     serviceUrl:
      defaultZone: http://service-registry:8761
 
