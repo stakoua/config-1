@@ -4,7 +4,6 @@ spring:
   application:
     name: Security_Service
 
-
   # Database
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
@@ -35,8 +34,11 @@ server:
  port: 8082
 
   #  Eureka configuration
-eureka :
+eureka:
   instance:
-    client:
-      serviceUrl:
-       defaultZone: http://service-registry:8761/eureka
+    hostname: Security_Service
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka
