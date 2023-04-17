@@ -1,0 +1,37 @@
+
+spring:
+  application:
+    name: Client_Service
+
+  security:
+    user:
+      name: mabrouka
+      password: annabi
+  datasource:
+    url: jdbc:postgresql://postgres-client:5432/client_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    
+    
+  #  Eureka configuration
+eureka:
+  instance:
+    hostname: Client_Service
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka
+
+server:
+  port: 8081
