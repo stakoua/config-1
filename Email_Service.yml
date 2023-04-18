@@ -10,7 +10,7 @@ spring:
   #  Eureka configuration
 eureka:
   instance:
-    hostname: Security_Service
+    hostname: Email_Service
   client:
     registerWithEureka: true
     fetchRegistry: true
