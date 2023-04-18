@@ -1,0 +1,25 @@
+spring:
+  security:
+    user:
+      name: mabrouka
+      password: annabi
+  application:
+      name: Email_Service
+      
+      
+  #  Eureka configuration
+eureka:
+  instance:
+    hostname: Security_Service
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka
+
+
+
+
+#  Server configuration
+server:
+  port: 8086
