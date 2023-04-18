@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: Consultant_Service
+  security:
+    user:
+      name: mabrouka
+      password: annabi
+
+
+  # Database
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      pool-name: ':::::::::::: Hikari DS Spades_1-MS POOL ::::::::::::'
+      connection-timeout: 60000
+      maximum-pool-size: 30
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://postgres-consultant:5432/consultantdb
+    username: postgres
+
+    password: insy2s
+
+  jpa:
+    hibernate:
+      ddl-auto: update # When you launch the application for the first time - switch "none" at "create"
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+    show-sql : true
+    properties:
+      hibernate:
+        format_sql: true
+        
+  #  Eureka configuration
+eureka:
+  instance:
+    hostname: Consultant_Service
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka
+      
+#  Server configuration
+server:
+  port: 8085
