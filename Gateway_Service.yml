@@ -6,6 +6,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://service-registry:8761/eureka
-
+  security:
+    user:
+      name: mabrouka
+      password: annabi
 server:
   port: 8080
