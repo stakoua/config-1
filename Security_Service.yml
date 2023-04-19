@@ -13,9 +13,9 @@ spring:
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://postgres-security:5432/users_db
-    #username: postgres
+    username: postgres
 
-   # password: postgres
+    password: postgres
 
 
 
