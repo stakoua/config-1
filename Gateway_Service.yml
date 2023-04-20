@@ -1,3 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: Security_Service
+          uri: lb://Security_Service
+          predicates:
+            - Path=/api/auth/authenticate
 eureka:
   instance:
     hostname: Gateway_Service
