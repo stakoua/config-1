@@ -2,7 +2,7 @@ app:
 
 spring:
   application:
-    name: SecurityService
+    name: Security_Service
 
   # Database
   datasource:
@@ -36,7 +36,7 @@ server:
   #  Eureka configuration
 eureka:
   instance:
-    hostname: SecurityService
+    hostname: Security_Service
   client:
     registerWithEureka: true
     fetchRegistry: true
