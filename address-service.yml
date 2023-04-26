@@ -40,3 +40,5 @@ eureka:
       defaultZone: http://service-registry:8761/eureka
 
 message: From User Service 123
+user:
+  url: http://Gateway-Service:8080/api/auth
