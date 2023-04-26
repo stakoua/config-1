@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: Ged_Service
+    
+  security:
+    user:
+      name: mabrouka
+      password: annabi
+  data:
+    mongodb:
+      database: admin
+      username: insy2s
+      password: insy2s
+      host: localhost
+      port: 27017
+server:
+  port: 8088
+#  Eureka configuration
+
+eureka:
+  instance:
+    hostname: Ged_Service
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://service-registry:8761/eureka
+
+user:
+  url: http://Gateway-Service:8080/api/auth
