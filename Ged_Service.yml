@@ -11,7 +11,7 @@ spring:
       database: admin
       username: insy2s
       password: insy2s
-      host: localhost
+      host: mongo
       port: 27017
 server:
   port: 8088
