@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:postgresql://postgres-client:5432/client_db
     username: postgres
-    password: postgres
+    password: insy2s
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
