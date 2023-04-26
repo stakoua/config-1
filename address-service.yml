@@ -13,7 +13,7 @@ spring:
     url: jdbc:postgresql://postgres-address:5432/adress_db
     username: postgres
 
-    password: postgres
+    password: insy2s
 
 
 
