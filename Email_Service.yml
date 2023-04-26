@@ -23,3 +23,6 @@ eureka:
 #  Server configuration
 server:
   port: 8086
+
+user:
+  url: http://Gateway-Service:8080/api/auth
