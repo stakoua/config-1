@@ -15,7 +15,7 @@ spring:
     url: jdbc:postgresql://postgres-security:5432/users_db
     username: postgres
 
-    password: postgres
+    password: insy2s
 
 
 
