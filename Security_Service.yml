@@ -1,9 +1,7 @@
 app:
-
 spring:
   application:
     name: Security_Service
-
   # Database
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
@@ -14,11 +12,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://postgres-security:5432/users_db
     username: postgres
-
     password: insy2s
-
-
-
   jpa:
     hibernate:
       ddl-auto: update # When you launch the application for the first time - switch "none" at "create"
@@ -32,8 +26,7 @@ spring:
 #  Server configuration
 server:
  port: 8082
-
-  #  Eureka configuration
+#  Eureka configuration
 eureka:
   instance:
     hostname: Security_Service
