@@ -46,4 +46,5 @@ server:
   port: 8085
   
 user:
-  url: http://Gateway-Service:8080/api/auth
+  #url: http://Gateway-Service:8080/api/auth
+  url: http://Gateway-Service:8090/api/auth
