@@ -11,4 +11,4 @@ eureka:
       name: mabrouka
       password: annabi
 server:
-  port: 8080
+  port: 8090
