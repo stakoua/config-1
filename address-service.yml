@@ -42,4 +42,4 @@ eureka:
 message: From User Service 123
 user:
   #url: http://Gateway-Service:8080/api/auth
-  url: http://Gateway-Service:8090/api/auth
+  url: http://gateway:8090/api/auth
