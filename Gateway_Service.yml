@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: api-gateway
+    hostname: Gateway_Service
   client:
     registerWithEureka: true
     fetchRegistry: true
