@@ -15,7 +15,7 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgres-consultant:5432/consultantdb
+    url: jdbc:postgresql://postgres:5432/consultantdb
     username: postgres
 
     password: insy2s
@@ -46,7 +46,6 @@ server:
   port: 8085
   
 user:
-  #url: http://Gateway-Service:8080/api/auth
-  url: http://gateway:8090/api/auth
+  url: http://gateway:8090/api/keycloak/users
 mail:
   url: http://gateway:8090/api/mail
