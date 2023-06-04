@@ -15,7 +15,7 @@ spring:
       connection-timeout: 60000
       maximum-pool-size: 30
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgres-payslip:5432/payslipdb
+    url: jdbc:postgresql://postgres:5432/payslipdb
     username: postgres
 
     password: insy2s
