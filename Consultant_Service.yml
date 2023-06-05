@@ -51,3 +51,5 @@ mail:
   url: http://gateway:8090/api/mail
 consultant:
   url: http://gateway:8090/api/consultants
+address:
+  url: http://gateway:8090/api/address
