@@ -35,3 +35,5 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://service-registry:8761/eureka
+user:
+  url: http://gateway:8090/api/keycloak/users
