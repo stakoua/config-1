@@ -48,3 +48,5 @@ user:
   url: http://gateway:8090/api/auth
 consultant:
   url: http://gateway:8090/api/consultants
+ged:
+  url: http://gateway:8090/api/file
