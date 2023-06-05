@@ -47,7 +47,7 @@ server:
   
 user:
   url: http://gateway:8090/api/keycloak/users
-mail:
+email:
   url: http://gateway:8090/api/mail
 consultant:
   url: http://gateway:8090/api/consultants
