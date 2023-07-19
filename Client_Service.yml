@@ -36,7 +36,6 @@ eureka:
 server:
   port: 8081
 email:
-  url: http://api-gateway:8090/api/mail/  
+  url: http://gateway-service:8090/api/mail/  
 user:
-  #url: http://Gateway-Service:8080/api/auth
   url: http://gateway-service:8090/api/auth
