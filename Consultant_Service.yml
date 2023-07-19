@@ -46,10 +46,10 @@ server:
   port: 8085
   
 user:
-  url: http://api-gateway:8090/api/keycloak/users
+  url: http://gateway-service:8090/api/keycloak/users
 email:
-  url: http://api-gateway:8090/api/mail
+  url: http://gateway-service:8090/api/mail
 consultant:
-  url: http://api-gateway:8090/api/consultants
+  url: http://gateway-service:8090/api/consultants
 address:
-  url: http://api-gateway:8090/api/address
+  url: http://gateway-service:8090/api/address
