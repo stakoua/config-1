@@ -36,4 +36,4 @@ eureka:
     serviceUrl:
       defaultZone: http://service-registry:8761/eureka
 user:
-  url: http://api-gateway:8090/api/keycloak/users
+  url: http://gateway-service:8090/api/keycloak/users
