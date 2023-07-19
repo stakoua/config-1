@@ -35,7 +35,7 @@ eureka:
 
 server:
   port: 8081
-
+  
 user:
   #url: http://Gateway-Service:8080/api/auth
   url: http://api-gateway:8090/api/auth
