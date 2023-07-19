@@ -44,9 +44,8 @@ eureka:
       defaultZone: http://service-registry:8761/eureka
 
 user:
-  #url: http://Gateway-Service:8080/api/auth
-  url: http://api-gateway:8090/api/auth
+  url: http://gateway-service:8090/api/auth
 consultant:
-  url: http://api-gateway:8090/api/consultants
+  url: http://gateway-service:8090/api/consultants
 ged:
-  url: http://api-gateway:8090/api/file
+  url: http://gateway-service:8090/api/file
